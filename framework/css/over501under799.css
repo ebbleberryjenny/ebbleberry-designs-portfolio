@@ -1,0 +1,14 @@
+#app1, #app2, #app4, #app5 {
+  width: 50%;
+}
+
+#intro {
+  text-align: right;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+#logo {
+  width: 50%;
+  text-align: left;
+}
