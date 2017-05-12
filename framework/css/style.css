@@ -2,6 +2,10 @@ img, embed, object, video {
   max-width: 100%;
 }
 
+header {
+  padding-top: 15px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
