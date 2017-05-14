@@ -9,6 +9,12 @@ header {
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
+}
+
+#logo {
+  width: 100%;
+  text-align: center;
 }
 
 #intro {
@@ -17,50 +23,56 @@ header {
   width: 100%;
 }
 
-#logo {
-  width: 100%;
-  text-align: center;
-}
-
 #logopic {
   padding: 10px;
   margin: auto;
 }
 
 #name {
-  font-family: 'Lato', sans-serif;
-  font-size: 200%;
-  color: #2d3c49;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  color: #1b5a90;
   line-height: 1.2em;
 }
 
-#title {
+#company, #title {
+  font-family: 'Advent Pro', sans-serif;
   line-height: 1.2em;
+  color: #569fde;
 }
 
 #topline {
-  border-top: 5px solid #7d97ad;
+  border-top: 5px solid #1b5a90;
 }
 
-#bigpic {
-  padding: 1em;
-  width: 100%;
+#description {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #1b5a90;
+  margin: 10px 10px 10px;
 }
 
 #work {
-  font-family: 'Lato', sans-serif;
-  color: #7d97ad;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 600;
+  color: #569fde;
   line-height: 1.2em;
+}
+
+.col-md-4 {
+  margin-top: 20px;
 }
 
 .app {
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Advent Pro', sans-serif;
   width: 100%;
+  vertical-align: middle;
+  color: #1b5a90;
 }
 
-#apptitle {
-  text-transform: uppercase;
+.apptitle {
   margin-top: 10px;
   line-height: 1.2em;
 }
