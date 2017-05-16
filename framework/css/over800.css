@@ -1,5 +1,10 @@
-#app1, #app2, #app3, #app4, #app5, #app6 {
-  width: 33.3%;
+#app1,
+#app2,
+#app3,
+#app4,
+#app5,
+#app6 {
+  width: calc(100% / 3);
 }
 
 #intro {

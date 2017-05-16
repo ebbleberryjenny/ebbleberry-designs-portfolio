@@ -1,4 +1,7 @@
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -29,32 +32,43 @@ header {
 }
 
 #name {
-  font-family: 'Advent Pro', sans-serif;
+  font-family: "Advent Pro", sans-serif;
   font-weight: 700;
   font-size: 44px;
   color: #1b5a90;
   line-height: 1.2em;
 }
 
-#company, #title {
-  font-family: 'Advent Pro', sans-serif;
+#company,
+#title {
+  font-family: "Advent Pro", sans-serif;
   line-height: 1.2em;
   color: #569fde;
+}
+
+#dividerline {
+  width: 100%;
+  padding: 0px 0px 0px;
 }
 
 #topline {
   border-top: 5px solid #1b5a90;
 }
 
+#bannerpic {
+  width: 100%;
+  padding: 0px 0px 0px;
+}
+
 #description {
   font-size: 18px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #1b5a90;
-  margin: 10px 10px 10px;
+  margin: 15px 10px 10px;
 }
 
 #work {
-  font-family: 'Advent Pro', sans-serif;
+  font-family: "Advent Pro", sans-serif;
   font-weight: 600;
   color: #569fde;
   line-height: 1.2em;
@@ -66,7 +80,7 @@ header {
 
 .app {
   text-align: center;
-  font-family: 'Advent Pro', sans-serif;
+  font-family: "Advent Pro", sans-serif;
   width: 100%;
   vertical-align: middle;
   color: #1b5a90;
